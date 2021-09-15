@@ -17,7 +17,30 @@
     padding-top: 20px;
     color: #6d1179;
   }
+  .container-nav{
+    background: rgb(241, 226, 8);
+  }
     
+
+  .bongabdo{
+    display: inline;
+
+  }
+  .idtime{
+    display: inline;
+
+  }
+  .color_active{
+    color:rgb(168, 36, 36);
+
+  }
+
+
+  .firstbox{
+    padding: 12 12 12 12;
+    background-color: green;
+
+  }
 /*
   body {
     background-color: #f4f4f4;
