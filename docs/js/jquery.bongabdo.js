@@ -38,7 +38,7 @@
 		}
 
 		function getBanglaDateAndMonth(givenDate) {
-			givenDate = givenDate.addHours(-6);
+			givenDate = givenDate.addHours(+6);
 		
 			//Year, Date, Month for Gregorian/English Calendar
 			var gregDate = givenDate.getDate(),
