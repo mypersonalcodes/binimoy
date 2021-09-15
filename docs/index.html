@@ -23,6 +23,7 @@
   </head>
 
   <body >
+<div >
     <!-- Navigation 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
  <nav class="navbar navbar-light" style="background-color: #1090ec;"></nav> 
@@ -62,18 +63,18 @@
   
   
   
-         <div class="row row-cols-auto">
-            <div class="col-md-3"><img src="img/binimoy.png" alt="..." height="36"></div>
-            <div class="col-md-2"><i class="fa fa-calendar"> <p class="bongabdo">..</p></i></div>
+         <div class="row ">
+            
+            <div class="col-md-3"> &nbsp &nbsp<i class="fa fa-calendar"> <p class="bongabdo">..</p></i></div>
     
-            <div class="col-md-2"><i class="fa fa-clock-o"> <p class="idtime">..</p></i></div>
-            <div class="col-md-2 ">চালক :<i class="fa fa-user-circle"></i> <u class="color_active">online</u></div>
-            <div class="col-md-3 "><i class="fa fa-hourglass"></i>কাজের সময়  : ০৮:০০-২৩:০০   </u></div>
+            <div class="col-md-3"><i class="fa fa-clock-o"> <p class="idtime">..</p></i></div>
+            <div class="col-md-3 ">চালক : &nbsp  <i class="fa fa-user-circle"></i>&nbsp <u class="color_active">অনলাইন</u></div>
+            <div class="col-md-3 ">কাজের সময়  : &nbsp <i class="fa fa-hourglass"></i>&nbsp ০৮:০০-২৩:০০   </u></div>
             
           </div>
           <div class="row">
             <div class="col-md-12">
-            <div class="text-center"><i class="fa fa-envelope" aria-hidden="true">binimoy.top@gmail.com</i></div>
+            <div class="text-center"> মেইল: &nbsp<i class="fa fa-envelope" aria-hidden="true">&nbsp binimoy.top@gmail.com</i></div>
             </div>
           </div>
     
@@ -93,6 +94,7 @@
       </div>
       <div class="col-md-8">
         <h1 class="binimoy">বিনিময় এ স্বাগতম </h1>
+        <p class="bongabdo">..</p>
         <ul class="list-group">
           <li>প্রতিটি লেনদেন করতে আমরা সাধারণত  ৫ থেকে ১৫ মিনিট সময় নিয়ে থাকি ।</li>
           <li>আমাদের সাইটে সর্বনিন্ম ১০ টাকা লেনদেন করা যায় ।</li>
@@ -129,29 +131,44 @@
    
    
 
-    <div class="container">
-      <div class="currency">
-        <select id="currency-one">
+    <div class="container padd">
+      <div class="row">
+        <div class="col-md-6">
+          <select class="form-select">
           
           <option value="Recharge">Mobile Recharge</option>
           
-        </select>
-        <input type="number" id="amount-one" placeholder="0" value="1" />
+           </select>
+        </div>
+
+        <div class="col-md-6">
+          <input type="text" id="amount-one" class="form-control" placeholder="0" value="0" />
+        </div>
+
+        
+        
       </div>
 
       
 
-      <div class="currency">
-        <select id="currency-two">
+      <div class="row padd">
+        <div class="col-md-6">
+          <select  class="form-select">
           <option value="payer">Payeer</option>
           <option value="Money">Web Money</option>
-        </select>
-        <input type="number" id="amount-two" placeholder="0" />
+          </select>
+      </div>
+        <div class="col-md-6">
+          <input type="text" id="amount-two"class="form-control" placeholder="0" />
+        </div>
+
+        
+        
       </div>
     </div>
    
  
-      
+  </div>
 
       
       
