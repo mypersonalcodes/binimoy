@@ -54,6 +54,14 @@
     margin: 0;
     padding: 20px; 
   } */
+
+  .formedit{
+    padding: 30px 30px 30px 30px;
+  }
+
+  body{
+    background-color: purple !important;
+}
  
   h1 {
     color: var(--primary-color);
@@ -73,6 +81,7 @@
   }
   .padd{
     padding-top:5%;
+    padding-bottom: 2%;
   }
   
   .money-img {
