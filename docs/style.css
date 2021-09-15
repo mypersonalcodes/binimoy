@@ -6,6 +6,7 @@
     box-sizing: border-box;
   }
   .binimoy {
+    padding-top: 20px;
     background-image: linear-gradient(to left, rgb(134, 68, 15),green,rgb(201, 201, 10),rgb(54, 183, 243));
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -13,8 +14,8 @@
     color: transparent;
   }
     
-  .flexing{flex: auto;}
-  body {
+
+  body {/*
     background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -23,7 +24,7 @@
     justify-content: center;
     height: 100vh;
     margin: 0;
-    padding: 20px;
+    padding: 20px;*/
   }
   
   h1 {
