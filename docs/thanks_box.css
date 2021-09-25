@@ -3,20 +3,23 @@
       padding:0;
     }
     .container_thanks {
-      background: #f0f0f0;
+      
+      background: rgb(241, 119, 4);
       box-sizing: border-box;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100vw;
-      height: 100vh;
+      height: 50vh;
     }
-    .box_thanks{ padding:30px;
+    .box_thanks{ 
+      padding:5%;
+      padding-bottom:12%;
       text-align:center;
       border-radius: 20px;
       width: 60px;
       height: 60px;
-      background: #f0f0f0;
+      background: #a72727;
       box-shadow:  0 0 0 #cccccc,
                    0 0 0 #ffffff,
                     10px 10px 10px #cccccc inset,
@@ -62,3 +65,4 @@
                      0 0 0 #cccccc inset,
                      2px 2px 2px #ffffff inset;
       }
+    }
