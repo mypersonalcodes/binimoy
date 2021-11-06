@@ -155,9 +155,12 @@
 
  }
  .jn-now{
-    width: 100px;
+    width: 150px;
     text-align: center;
     /* margin-left: 60px; */
+ }
+ .jn-now:hover{
+    color: red;
  }
 
 
