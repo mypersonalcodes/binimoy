@@ -16,14 +16,21 @@
     
     color:rgb(255, 159, 17);
     display: flex;
-   
-    
+    flex-direction: row; 
     
     }
+
+    @media (max-width: 800px) {
+      #navearn_section {
+        flex-direction: column;
+      }
+   }
+
+
  #nav_title{
     padding-left: 100px;
     font-family: Verdana;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
  }
  #nav_title_left{
     padding-left: 60vw;
@@ -59,8 +66,110 @@
     font-size: 1.5vw;
     color: #FFFFFF;
     padding-left: 20vw;
-  
+    /* image-resolution: 100%; */
+
+ }
+
+ #imgearnFreeright{
+      width: 20vw;
+      height: auto;
+      border-radius: 10%;
+
+ }
+
+ #tablesection{
+      padding-top: 10vh;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      padding-bottom: 10vh;
+      background: #313131;
+      color: #FFFFFF;
+      font-family: Verdana;
+      font-size: 1.5vw;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+
  }
 
 
+ #sec_table{
+    /* width: 100%; */
+    padding: 0%;
+    margin:0 6vw 0 6vw;
+    /* border: #F00 solid 1px; */
+    
+ }
+
+   /* #table_head1{
+      border: #F00 solid 1px;
+      background-color: #ff9f12  ;
+      display: flex;
+      flex-direction: row; 
+   } */
+
+
+ /* #f_table_row{
+   border: #F00 solid 1px;
+   padding-bottom: 40px;
+   /* margin-bottom: 40px; */
  
+
+ /* .container{
+   margin: 0;
+   padding: 0;
+   background: #313131;
+
+ } */
+
+ #firsttable{
+   width: 100%;
+ }
+
+
+ th{
+    color: #000000;
+    background-color: #ff9f12;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight:700;
+    font-style:italic;padding: 0.5vw;
+    /* display: flex; */
+    /* flex-direction: row; */
+
+ }
+ td{
+    border: #5b5b5b solid 1px;
+    padding:0px;
+    margin: 0px;
+    color: #cccccc;
+
+ }
+
+ img.bonus{
+   padding: 0px;
+
+       margin: 0px;
+
+
+       background-color: transparent;
+ }
+
+
+
+ 
+ a{
+    color: #cccccc;
+    text-decoration: none;
+    
+ }
+
+ #tabledata{
+    margin: -20px;
+    padding: 0px;
+
+ }
+    
