@@ -6,12 +6,12 @@
    {
     box-sizing: border-box;
   } */
-  a{
+  /* a{
     text-decoration:none;
   }
   a:hover{
     color: red;
-  }
+  } */
 
   .dearn {
     color: #e0dfdc;
@@ -23,6 +23,17 @@
     text-align: center;
     padding-bottom: 5vw;
     font-size: 5vw;
+    }
+    .dearn a {
+      color: rgb(126, 128, 0);
+      text-decoration: none;
+    }
+    .dearn a:hover {
+      border: #ecb27c 1vw solid;
+      border-radius: 20%;
+      padding: 0 3vw 3vw 3vw;
+      color: green;
+      background: #6d1179;
     }
 
 .pcolorwhite{

@@ -32,11 +32,11 @@
     font-family: Verdana;
     /* font-size: 1.5vw; */
  }
- #nav_title_left{
+ /* #nav_title_left{
     padding-left: 60vw;
     font-family: Verdana;
  }
-    
+     */
 
  #bodybegins{
     padding-top: 10vh;
@@ -57,11 +57,12 @@
  #earnFree{
     border: #cccccc 1px solid;
     font-family: Verdana;
-    font-size: 1.5vw;
+    font-size: 4vw;
     color: #FFFFFF;
     text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
  }
  #earnFree2{
+    font-size: 1.5vw;
     margin-top: 30px;
    border: #cccccc 1px solid;
    
@@ -110,33 +111,13 @@
     
  }
 
-   /* #table_head1{
-      border: #F00 solid 1px;
-      background-color: #ff9f12  ;
-      display: flex;
-      flex-direction: row; 
-   } */
-
-
- /* #f_table_row{
-   border: #F00 solid 1px;
-   padding-bottom: 40px;
-   /* margin-bottom: 40px; */
- 
-
- /* .container{
-   margin: 0;
-   padding: 0;
-   background: #313131;
-
- } */
 
  #firsttable{
    width: 100%;
  }
 
 
- th{
+ #firsttable th{
     color: #000000;
     background-color: #ff9f12;
     font-family: Arial;
@@ -147,21 +128,51 @@
     /* flex-direction: row; */
 
  }
- td{
+ #firsttable td{
     border: #5b5b5b solid 1px;
     padding:0px;
     margin: 0px;
     color: #cccccc;
 
  }
+
+ @media (max-width: 800px) {
+   #firsttable td{
+      display: flex;
+     flex-direction: row;
+   }
+   #firsttable th{
+      display: flex;
+     flex-direction: row;
+   }
+}
+
+
+
+
  .jn-now{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
     text-align: center;
+    border: #c56a10 2px solid;
+    padding: 1vw;
+    background-color: #f89705;
+    color: #F00;
     /* margin-left: 60px; */
  }
- .jn-now:hover{
-    color: red;
+ .jn-now a{
+    color: #000000;
  }
+ .jn-now a:hover{
+    text-decoration:wavy;
+    color: green;
+    font-size: large;
+    font-weight: 800;
+    font-size: 1.5vw;
+ }
+ .jn-now a:active{
+   color: red;
+}
 
 
  img.bonus{
