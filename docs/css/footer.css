@@ -1,0 +1,13 @@
+footer {
+    margin-top: 2vw;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: #523c3c solid 2px ;
+    background: #2c2c2c;
+    /* display: flex;
+    flex-direction: column;  */
+  }
+
+
+
