@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- javascript calculator -->
+    
+
+
+
+    <!-- <h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script> -->
+
+
+
+
+	
+	<!-- for styling -->
+
+	
+    <!-- <div onclick="validateForm()">asd</div>     -->
+
+	
+
+
+<!-- <form name="myForm" onsubmit="submit_form()" > -->
+
+<form name="myForm" align="center">
+  Koto Jon: <input  type="text" name="jon">
+  Total Taka: <input  type="text" name="taka">
+</form>
+<p align="center">
+<button  onclick="submit_form()" >Submit</button></p>
+
+<p id="demo"></p>
+
+
+
+
+
+
+<script>
+function submit_form() {
+ let jon = document.forms["myForm"]["jon"].value
+ let taka = document.forms["myForm"]["taka"].value
+//   alert(jon+"="+taka); 
+
+s=0;
+for (let i = 0; i < (parseInt(jon)+1); i++)
+ {
+    s=s+i;
+}
+y=parseFloat(taka)/s;
+
+let text = "";
+for (let i = parseInt(jon); i>0; i--)
+{
+    rs=y*i;
+    text += rs + "<br>";
+  
+}
+document.getElementById("demo").innerHTML = text;
+  
+}
+
+
+</script>
+
+</body>
+</html>
