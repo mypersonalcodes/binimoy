@@ -49,6 +49,21 @@ document.getElementById("demo").innerHTML = text;
 
 <p id="demo"></p>
 
+<h1 align="center">Next one </h1>
+<form name="myForm2" align="center">
+    Koto Jon: <input  type="text" name="jon2">
+    Total Taka: <input  type="text" name="taka2">
+</form>
+
+<p align="center">
+<button  onclick="submit_form2()"> Submit </button>
+</p>
+<p>here</p>
+<p id="demo2"></p>
+
+
+
+
 
 
 
@@ -74,12 +89,55 @@ for (let i = parseInt(jon); i>0; i--)
     text += rs + "<br>";
   
 }
-document.getElementById("demo").innerHTML = text;
-  
+document.getElementById("demo").innerHTML = text; 
 }
 
 
+//--------------------------
+
+ function lp(bal,n)
+    {
+            let x=bal,s=0;
+            while (s<=bal)
+            {
+                let text2 = "";
+                for(let i=1;i<n+1;i++)
+                {
+                   let y=x/i;
+                   text2 +=i+"="+y + "<br>";
+                s=s+y;
+
+                }
+                document.getElementById("demo2").innerHTML = text2;
+
+            }
+            return s
+
+       }
+
+       function seq(bal,peo)
+       {
+           let fix=bal
+           while(lp(bal,peo)>fix)
+           {
+               bal=bal-1;
+           }
+
+       }
+
+
+
+
+function submit_form2() {
+     let jon2 = document.forms["myForm2"]["jon2"].value
+     let taka2 = document.forms["myForm2"]["taka2"].value
+    //   alert(jon2+"="+taka2);  
+    seq(parseFloat(taka2),parseInt(jon2));
+    // document.getElementById("demo2").innerHTML = "z";
+     }
+
 </script>
+
 
 </body>
 </html>
